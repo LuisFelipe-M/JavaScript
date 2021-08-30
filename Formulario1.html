@@ -1,0 +1,15 @@
+<body>
+    <form name="curso" action="#" method="post">
+        <label>Nome</label><br>
+        <input type="text" name="fNome" value="Luis Felipe"><br><br>
+        <label>Senha</label><br>
+        <input type="password" name="fSenha" value="1234"><br><br>
+        <input type="submit" name="btEnviar" value="Enviar">
+    </form>
+    <script>
+        tag = document.forms["curso"];
+        document.write(tag.elements["fNome"].value);
+        document.write(tag.elements["fSenha"].value);
+    </script>
+</body>
+
